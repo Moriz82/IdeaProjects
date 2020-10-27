@@ -20,7 +20,7 @@ public class Lost_v2 {
                 for (int k = 0; k < columns; k++) {
                     mazeArr[0][j] = row1.charAt(j);
                     mazeArr[1][j] = row2.charAt(j);
-                }//jake big gay
+                }//jake not big gay
             }
         }
     }
