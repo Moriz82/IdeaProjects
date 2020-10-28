@@ -13,7 +13,6 @@ public class Lost_v2 {
             scan.nextLine();
             char[][] mazeArr = new char[rows][rows];
             for (int j = 0; j < rows; j+=2) {
-                System.out.println(rows);
                 boolean found = false;
                 String row1 = scan.nextLine();
                 String row2 = scan.nextLine();
