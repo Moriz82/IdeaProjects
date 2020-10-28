@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Lost_v2 {
+public class lostv3 {
     public static void main(String[] args) throws IOException {
         //scanner for the file
         Scanner scan = new Scanner(new File("student/lost.dat"));
@@ -31,12 +31,7 @@ public class Lost_v2 {
                     mazeArr[1][k] = row2.charAt(k);
                 }
                 //checking for matching chars in the same place
-                for (int k = 1; k < columns; k++) {
-                    System.out.println(row1 +" "+ row2);
-                    if (mazeArr[0][k] == mazeArr[1][k] && !found){
-                        amntSpaces += k;
-                        found = true;
-                    }
+
                 }
             }
             System.out.println("amnt "+amntSpaces);

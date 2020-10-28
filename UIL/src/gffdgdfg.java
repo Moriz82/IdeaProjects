@@ -1,7 +1,8 @@
+
 import java.io.*;
 import java.util.*;
 
-public class Lost_v2 {
+public class gffdgdfg {
     public static void main(String[] args) throws IOException {
         //scanner for the file
         Scanner scan = new Scanner(new File("student/lost.dat"));
@@ -14,26 +15,24 @@ public class Lost_v2 {
             int columns = scan.nextInt();
             //throw the /n because it causes errors
             scan.nextLine();
-            //checks if it doesnt have am even amount of rows
-            if (!(rows%2 == 0)){
-                scan.nextLine();
-            }
             //creates a multidimensional array to store both string as chars
             char[][] mazeArr = new char[rows][rows];
-            for (int j = 1; j < rows; j+=2) {
+            String[] Rows = new String[rows];
+            for (int k = 0; k < rows; k++) {
+                Rows[k] = scan.nextLine();
+            }
+            for (int j = 1; j < rows; j++) {
                 //bool for if it finds the first opening and row1 and row2 for 2 rows at a time
                 boolean found = false;
-                String row1 = scan.nextLine();
-                String row2 = scan.nextLine();
                 //putting strings in array 1 char at a time
-                for (int k = 0; k < columns; k++) {
-                    mazeArr[0][k] = row1.charAt(k);
-                    mazeArr[1][k] = row2.charAt(k);
+                for (int k = 0; k < rows; k++) {
+                    for (int l = 0; l < rows; l++) {
+                        mazeArr[k][l] = Rows[k].charAt(l);
+                    }
                 }
                 //checking for matching chars in the same place
-                for (int k = 1; k < columns; k++) {
-                    System.out.println(row1 +" "+ row2);
-                    if (mazeArr[0][k] == mazeArr[1][k] && !found){
+                for (int k = 0; k < columns; k++) {
+                    if (mazeArr[j][k] == mazeArr[j-1][k] && !found) {
                         amntSpaces += k;
                         found = true;
                     }

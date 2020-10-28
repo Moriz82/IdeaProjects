@@ -12,7 +12,6 @@ public class Lost {
             List<Integer> amntd = new ArrayList<>();
             for (int j = 0; j < rows; j++) {
                 String line = scan.nextLine();
-
                 int test = line.length();
                 int value = checkamnt(line);
                 amntd.add(value);
