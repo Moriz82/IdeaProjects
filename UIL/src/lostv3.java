@@ -34,7 +34,7 @@ public class lostv3 {
 
                 }
             }
-            System.out.println("amnt "+amntSpaces);
+            //System.out.println("amnt "+amntSpaces);
         }
     }
-}
+
