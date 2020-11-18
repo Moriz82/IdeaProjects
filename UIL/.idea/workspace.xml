@@ -38,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,8 +49,16 @@
       <option name="presentableId" value="Default" />
       <updated>1605049061553</updated>
       <workItem from="1605049062912" duration="5000" />
+      <workItem from="1605207112343" duration="388000" />
+      <workItem from="1605553636761" duration="602000" />
+      <workItem from="1605640311226" duration="2828000" />
+      <workItem from="1605651182748" duration="158000" />
+      <workItem from="1605661240876" duration="18000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -61,5 +70,28 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="769" y="291" key="FileChooserDialogImpl" timestamp="1605207493562">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="769" y="291" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207493562" />
+    <state x="461" y="166" key="SettingsEditor" timestamp="1605207496595">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="166" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605207496595" />
+    <state x="763" y="364" key="cloudConfig.SelfSettingsDialog" timestamp="1605207324827">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="763" y="364" key="cloudConfig.SelfSettingsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605207324827" />
+    <state x="533" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605641665521">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="533" y="146" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1605641665521" />
+    <state x="668" y="395" width="655" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1605207276277">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="668" y="395" width="655" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605207276277" />
   </component>
 </project>

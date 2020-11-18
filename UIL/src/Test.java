@@ -1,12 +1,13 @@
-import static java.lang.System.*;
-public class Test {
-    public static void main(String[] args) {
-        int total=0;
-        for(int s=1; s<19; s++)
-        {
-            total=total+s;
-        }
-        out.println(total);
+import java.util.*;
+import java.io.*;
 
+public class Test {
+    public static void main(String[] args) throws IOException {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("rows ");
+        int rows = scan.nextInt();
+        System.out.println("columns ");
+        int col = scan.nextInt();
+        System.out.println("row1");
     }
 }

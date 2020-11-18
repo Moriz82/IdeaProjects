@@ -25,6 +25,9 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileColors">
+    <fileColor scope="Project Files" color="Violet" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -49,17 +52,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.TriangleFourRunner">
-    <configuration name="TriangleFourRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangleFourRunner" />
+  <component name="RunManager" selected="Application.TriplesRunner">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleOneRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangleOneRunner" />
+    <configuration name="TriangleFourRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TriangleFourRunner" />
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,6 +83,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TriplesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TriplesRunner" />
+      <module name="CS_A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -92,10 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TriplesRunner" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.TriangleFourRunner" />
         <item itemvalue="Application.TriangleThreeRunner" />
         <item itemvalue="Application.TriangleTwoRunner" />
-        <item itemvalue="Application.TriangleOneRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -108,6 +120,10 @@
       <option name="presentableId" value="Default" />
       <updated>1605049021372</updated>
       <workItem from="1605049022421" duration="3366000" />
+      <workItem from="1605128659052" duration="604000" />
+      <workItem from="1605196441746" duration="1103000" />
+      <workItem from="1605205089724" duration="1989000" />
+      <workItem from="1605661264424" duration="1487000" />
     </task>
     <servers />
   </component>
@@ -124,6 +140,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="263" y="434" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605049076299">
@@ -134,34 +151,42 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="210" y="290" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605049591545" />
-    <state x="260" y="261" key="FileChooserDialogImpl" timestamp="1605049040353">
+    <state x="260" y="261" key="FileChooserDialogImpl" timestamp="1605207071933">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="260" y="261" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605049040353" />
-    <state width="914" height="295" key="GridCell.Tab.0.bottom" timestamp="1605052412368">
+    <state x="260" y="261" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207071933" />
+    <state width="1377" height="252" key="GridCell.Tab.0.bottom" timestamp="1605662710639">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605052412368" />
-    <state width="914" height="295" key="GridCell.Tab.0.center" timestamp="1605052412368">
+    <state width="1377" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605662710639" />
+    <state width="1377" height="252" key="GridCell.Tab.0.center" timestamp="1605662710638">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605052412368" />
-    <state width="914" height="295" key="GridCell.Tab.0.left" timestamp="1605052412367">
+    <state width="1377" height="252" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605662710638" />
+    <state width="1377" height="252" key="GridCell.Tab.0.left" timestamp="1605662710638">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605052412367" />
-    <state width="914" height="295" key="GridCell.Tab.0.right" timestamp="1605052412368">
+    <state width="1377" height="252" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605662710638" />
+    <state width="1377" height="252" key="GridCell.Tab.0.right" timestamp="1605662710638">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605052412368" />
+    <state width="1377" height="252" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605662710638" />
     <state x="145" y="248" key="NewModule_or_Project.wizard" timestamp="1605049059670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="145" y="248" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1605049059670" />
+    <state x="495" y="230" width="1000" height="708" key="SettingsEditor" timestamp="1605662106967">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="495" y="230" width="1000" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605662106967" />
     <state x="184" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605050528728">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="184" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1605050528728" />
+    <state x="732" y="457" width="655" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1605662105976">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="732" y="457" width="655" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605662105976" />
     <state x="143" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1605051990240">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
