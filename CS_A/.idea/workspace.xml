@@ -54,7 +54,14 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.TriplesRunner">
+  <component name="RunManager" selected="Application.CarRunner">
+    <configuration name="CarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarRunner" />
+      <module name="CS_A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="CS_A" />
@@ -71,13 +78,6 @@
     </configuration>
     <configuration name="TriangleThreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TriangleThreeRunner" />
-      <module name="CS_A" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleTwoRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangleTwoRunner" />
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TriplesRunner" />
+        <item itemvalue="Application.CarRunner" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TriplesRunner" />
         <item itemvalue="Application.TriangleFourRunner" />
         <item itemvalue="Application.TriangleThreeRunner" />
-        <item itemvalue="Application.TriangleTwoRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +123,11 @@
       <workItem from="1605128659052" duration="604000" />
       <workItem from="1605196441746" duration="1103000" />
       <workItem from="1605205089724" duration="1989000" />
-      <workItem from="1605661264424" duration="1487000" />
+      <workItem from="1605661264424" duration="5344000" />
+      <workItem from="1605720731403" duration="65000" />
+      <workItem from="1605749321202" duration="63000" />
+      <workItem from="1606686298057" duration="1707000" />
+      <workItem from="1606875443810" duration="616000" />
     </task>
     <servers />
   </component>
@@ -155,22 +159,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="260" y="261" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207071933" />
-    <state width="1377" height="252" key="GridCell.Tab.0.bottom" timestamp="1605662710639">
+    <state width="1240" height="245" key="GridCell.Tab.0.bottom" timestamp="1606688023198">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1377" height="252" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1605662710639" />
-    <state width="1377" height="252" key="GridCell.Tab.0.center" timestamp="1605662710638">
+    <state width="1240" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606688023198" />
+    <state width="1240" height="245" key="GridCell.Tab.0.center" timestamp="1606688023198">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1377" height="252" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1605662710638" />
-    <state width="1377" height="252" key="GridCell.Tab.0.left" timestamp="1605662710638">
+    <state width="1240" height="245" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606688023198" />
+    <state width="1240" height="245" key="GridCell.Tab.0.left" timestamp="1606688023198">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1377" height="252" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1605662710638" />
-    <state width="1377" height="252" key="GridCell.Tab.0.right" timestamp="1605662710638">
+    <state width="1240" height="245" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606688023198" />
+    <state width="1240" height="245" key="GridCell.Tab.0.right" timestamp="1606688023198">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1377" height="252" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1605662710638" />
+    <state width="1240" height="245" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606688023198" />
     <state x="145" y="248" key="NewModule_or_Project.wizard" timestamp="1605049059670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

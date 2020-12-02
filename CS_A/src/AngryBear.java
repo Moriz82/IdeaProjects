@@ -1,12 +1,12 @@
 public class AngryBear {
-    private int daysAwake, amntTeeth;
+    private static int daysAwake, amntTeeth;
 
     public AngryBear( int one, int two ) {
         daysAwake = one;
         amntTeeth = two;
     }
 
-    public boolean isAngry() {
+    public static boolean isAngry() {
         if (daysAwake>=3 && amntTeeth < 10){
             return true;
         }

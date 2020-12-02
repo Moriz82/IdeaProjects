@@ -25,6 +25,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -40,6 +47,28 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Chem_Reactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chem_Reactions" />
+      <module name="UIL" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="UIL" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Chem_Reactions" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,6 +83,12 @@
       <workItem from="1605640311226" duration="2828000" />
       <workItem from="1605651182748" duration="158000" />
       <workItem from="1605661240876" duration="18000" />
+      <workItem from="1605749387091" duration="9459000" />
+      <workItem from="1606673646203" duration="4904000" />
+      <workItem from="1606678608732" duration="341000" />
+      <workItem from="1606686194317" duration="89000" />
+      <workItem from="1606687141734" duration="875000" />
+      <workItem from="1606874066995" duration="607000" />
     </task>
     <servers />
   </component>
@@ -73,10 +108,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="775" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1605751109035">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="775" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1605751109035" />
     <state x="769" y="291" key="FileChooserDialogImpl" timestamp="1605207493562">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="769" y="291" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207493562" />
+    <state width="914" height="325" key="GridCell.Tab.0.bottom" timestamp="1606678585831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606678585831" />
+    <state width="914" height="325" key="GridCell.Tab.0.center" timestamp="1606678585831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="325" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606678585831" />
+    <state width="914" height="325" key="GridCell.Tab.0.left" timestamp="1606678585831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="325" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606678585831" />
+    <state width="914" height="325" key="GridCell.Tab.0.right" timestamp="1606678585831">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="325" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606678585831" />
     <state x="461" y="166" key="SettingsEditor" timestamp="1605207496595">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
