@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c8b0c-308c-463b-a5bd-dae7c3a7064f" name="Default Changelist" comment="your bad" />
+    <list default="true" id="f5a6d640-2900-47db-a2bf-9e81d4564933" name="Default Changelist" comment="cookieJar Lab" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileColors">
-    <fileColor scope="Project Files" color="Violet" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,25 +35,56 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1k7QBw8RIigDF8dw9eGvccGXwra" />
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
+  <component name="ProjectId" id="1gsTrjgqrOJBC9vY7hzRnrpenfS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UIL" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.CarRunner">
-    <configuration name="CarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarRunner" />
+  <component name="RunManager" selected="Application.ClassCompleteWorkSheet6">
+    <configuration name="ClassCompleteWorkSheet6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassCompleteWorkSheet6" />
+      <module name="CS_A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CookieJarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CookieJarRunner" />
+      <module name="CS_A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImplC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplC" />
+      <module name="CS_A" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution" />
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -64,27 +92,6 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="CS_A" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleFourRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangleFourRunner" />
-      <module name="CS_A" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriangleThreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangleThreeRunner" />
-      <module name="CS_A" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriplesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriplesRunner" />
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,31 +110,37 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarRunner" />
+        <item itemvalue="Application.ClassCompleteWorkSheet6" />
+        <item itemvalue="Application.CookieJarRunner" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TriplesRunner" />
-        <item itemvalue="Application.TriangleFourRunner" />
-        <item itemvalue="Application.TriangleThreeRunner" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.ImplC" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="146c8b0c-308c-463b-a5bd-dae7c3a7064f" name="Default Changelist" comment="" />
-      <created>1605049021372</created>
+      <changelist id="f5a6d640-2900-47db-a2bf-9e81d4564933" name="Default Changelist" comment="" />
+      <created>1598902500156</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605049021372</updated>
-      <workItem from="1605049022421" duration="3366000" />
-      <workItem from="1605128659052" duration="604000" />
-      <workItem from="1605196441746" duration="1103000" />
-      <workItem from="1605205089724" duration="1989000" />
-      <workItem from="1605661264424" duration="5344000" />
-      <workItem from="1605720731403" duration="65000" />
-      <workItem from="1605749321202" duration="63000" />
-      <workItem from="1606686298057" duration="1707000" />
-      <workItem from="1606875443810" duration="833000" />
+      <updated>1598902500156</updated>
+      <workItem from="1602802182854" duration="1161000" />
+      <workItem from="1603148666455" duration="13194000" />
+      <workItem from="1603566098110" duration="1764000" />
+      <workItem from="1603738513912" duration="1837000" />
+      <workItem from="1604616365399" duration="5821000" />
+      <workItem from="1604674338184" duration="4863000" />
+      <workItem from="1604688693583" duration="845000" />
+      <workItem from="1604693895068" duration="452000" />
+      <workItem from="1604695141428" duration="1258000" />
+      <workItem from="1607278520329" duration="2032000" />
+      <workItem from="1607383744722" duration="646000" />
+      <workItem from="1607384444762" duration="612000" />
     </task>
     <servers />
   </component>
@@ -146,54 +159,80 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cookieJar Lab" />
+    <MESSAGE value="fun fun" />
+    <MESSAGE value="cool stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="cool stuff" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="263" y="434" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605049076299">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="435" y="208" key="#Notifications" timestamp="1607384465562">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="263" y="434" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1605049076299" />
-    <state x="210" y="290" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1605049591545">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="435" y="208" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1607384465562" />
+    <state x="163" y="0" key="#Project_Structure" timestamp="1602802202166">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="210" y="290" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605049591545" />
-    <state x="260" y="261" key="FileChooserDialogImpl" timestamp="1605207071933">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="163" y="0" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1602802202166" />
+    <state x="488" y="90" key="#com.intellij.ide.util.MemberChooser" timestamp="1607279120591">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="260" y="261" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207071933" />
-    <state width="1240" height="285" key="GridCell.Tab.0.bottom" timestamp="1606876283609">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="488" y="90" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1607279120591" />
+    <state x="463" y="139" key="FileChooserDialogImpl" timestamp="1607384652033">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1240" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606876283609" />
-    <state width="1240" height="285" key="GridCell.Tab.0.center" timestamp="1606876283609">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1607384652033" />
+    <state width="1321" height="127" key="GridCell.Tab.0.bottom" timestamp="1607384395141">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1240" height="285" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606876283609" />
-    <state width="1240" height="285" key="GridCell.Tab.0.left" timestamp="1606876283608">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1321" height="127" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607384395141" />
+    <state width="1321" height="127" key="GridCell.Tab.0.center" timestamp="1607384395140">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1240" height="285" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606876283608" />
-    <state width="1240" height="285" key="GridCell.Tab.0.right" timestamp="1606876283609">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1321" height="127" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607384395140" />
+    <state width="1321" height="127" key="GridCell.Tab.0.left" timestamp="1607384395140">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1240" height="285" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606876283609" />
-    <state x="145" y="248" key="NewModule_or_Project.wizard" timestamp="1605049059670">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1321" height="127" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607384395140" />
+    <state width="1321" height="127" key="GridCell.Tab.0.right" timestamp="1607384395140">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="145" y="248" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1605049059670" />
-    <state x="495" y="230" width="1000" height="708" key="SettingsEditor" timestamp="1605662106967">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1321" height="127" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607384395140" />
+    <state width="1323" height="247" key="GridCell.Tab.1.bottom" timestamp="1604688500916">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="495" y="230" width="1000" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605662106967" />
-    <state x="184" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605050528728">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="247" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604688500916" />
+    <state width="1323" height="247" key="GridCell.Tab.1.center" timestamp="1604688500915">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1605050528728" />
-    <state x="732" y="457" width="655" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1605662105976">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="247" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1604688500915" />
+    <state width="1323" height="247" key="GridCell.Tab.1.left" timestamp="1604688500915">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="732" y="457" width="655" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605662105976" />
-    <state x="143" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1605051990240">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1323" height="247" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1604688500915" />
+    <state width="1323" height="247" key="GridCell.Tab.1.right" timestamp="1604688500915">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="143" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605051990240" />
+    <state width="1323" height="247" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1604688500915" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1607384662063">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1607384662063" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1602272494794">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1602272494794" />
+    <state x="422" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604695615296">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="422" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1604695615296" />
+    <state x="65" y="4" key="new project wizard" timestamp="1600091668238">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="65" y="4" key="new project wizard/0.0.1366.768@0.0.1366.768" timestamp="1600091668238" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600384568510">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1600384568510" />
   </component>
 </project>
