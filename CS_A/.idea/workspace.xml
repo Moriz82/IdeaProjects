@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a6d640-2900-47db-a2bf-9e81d4564933" name="Default Changelist" comment="cookieJar Lab" />
+    <list default="true" id="f5a6d640-2900-47db-a2bf-9e81d4564933" name="Default Changelist" comment="cookieJar Lab">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AdditionPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../UIL" />
@@ -61,7 +67,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ClassCompleteWorkSheet6">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="ClassCompleteWorkSheet6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassCompleteWorkSheet6" />
       <module name="CS_A" />
@@ -97,22 +103,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.ClassCompleteWorkSheet6" />
         <item itemvalue="Application.CookieJarRunner" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.ImplC" />
       </list>
@@ -141,6 +136,8 @@
       <workItem from="1607278520329" duration="2032000" />
       <workItem from="1607383744722" duration="646000" />
       <workItem from="1607384444762" duration="612000" />
+      <workItem from="1607460224784" duration="2776000" />
+      <workItem from="1607645742346" duration="1107000" />
     </task>
     <servers />
   </component>
@@ -182,22 +179,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1607384652033" />
-    <state width="1321" height="127" key="GridCell.Tab.0.bottom" timestamp="1607384395141">
+    <state width="649" height="127" key="GridCell.Tab.0.bottom" timestamp="1607474924352">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="127" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607384395141" />
-    <state width="1321" height="127" key="GridCell.Tab.0.center" timestamp="1607384395140">
+    <state width="649" height="127" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1607474924352" />
+    <state width="649" height="127" key="GridCell.Tab.0.center" timestamp="1607474924352">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="127" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607384395140" />
-    <state width="1321" height="127" key="GridCell.Tab.0.left" timestamp="1607384395140">
+    <state width="649" height="127" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1607474924352" />
+    <state width="649" height="127" key="GridCell.Tab.0.left" timestamp="1607474924352">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="127" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607384395140" />
-    <state width="1321" height="127" key="GridCell.Tab.0.right" timestamp="1607384395140">
+    <state width="649" height="127" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1607474924352" />
+    <state width="649" height="127" key="GridCell.Tab.0.right" timestamp="1607474924352">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1321" height="127" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607384395140" />
+    <state width="649" height="127" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1607474924352" />
     <state width="1323" height="247" key="GridCell.Tab.1.bottom" timestamp="1604688500916">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -222,10 +219,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1602272494794" />
-    <state x="422" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1604695615296">
+    <state x="422" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1607645765771">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="422" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1604695615296" />
+    <state x="422" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.768@0.0.1366.768" timestamp="1607645765771" />
     <state x="65" y="4" key="new project wizard" timestamp="1600091668238">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
