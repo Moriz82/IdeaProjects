@@ -99,17 +99,3 @@ public class Lost_v1000 {
             return true;
         }
 }
-class Maze {
-    public char[][] maze;
-    public LinkedList<Position> path = new LinkedList<Position>();
-    public Position start;
-}
- class Position {
-    public int x;
-    public int y;
-
-    public Position(int y, int x) {
-        this.x = x;
-        this.y = y;
-    }
-}
