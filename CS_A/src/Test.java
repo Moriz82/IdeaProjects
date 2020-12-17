@@ -1,6 +1,13 @@
-import java.util.Scanner;
-
-public class Test {
+public class Test{
     public static void main(String[] args) {
+        while (k < 0)
+
+        {
+
+            System.out.print("*");
+
+            k++;
+
+        }
     }
 }
