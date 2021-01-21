@@ -1,13 +1,5 @@
 public class Test{
-    public static void main(String[] args) {
-        while (k < 0)
+    public static void main(String Args[]){
 
-        {
-
-            System.out.print("*");
-
-            k++;
-
-        }
     }
 }

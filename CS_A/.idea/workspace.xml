@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="146c8b0c-308c-463b-a5bd-dae7c3a7064f" name="Default Changelist" comment="your bad" />
+    <list default="true" id="f5a6d640-2900-47db-a2bf-9e81d4564933" name="Default Changelist" comment="cookieJar Lab">
+      <change afterPath="$PROJECT_DIR$/src/RayTotal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TotalRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +59,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.CarRunner">
+  <component name="RunManager" selected="Application.TotalRunner">
     <configuration name="CarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarRunner" />
       <module name="CS_A" />
@@ -69,15 +74,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleFourRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangleFourRunner" />
+    <configuration name="TotalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TotalRunner" />
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleThreeRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangleThreeRunner" />
+    <configuration name="TriangleFourRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TriangleFourRunner" />
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,24 +95,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TotalRunner" />
         <item itemvalue="Application.CarRunner" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TriplesRunner" />
         <item itemvalue="Application.TriangleFourRunner" />
-        <item itemvalue="Application.TriangleThreeRunner" />
       </list>
     </recent_temporary>
   </component>
