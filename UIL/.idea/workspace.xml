@@ -35,6 +35,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1k7QHBwckt9CfVTWaMJD3uxv5HV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -69,9 +72,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dijkstra_solver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dijkstra_solver" />
+      <module name="UIL" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.dijkstra_solver" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Chem_Reactions" />
       </list>
@@ -99,6 +110,10 @@
       <workItem from="1606874066995" duration="607000" />
       <workItem from="1607796511088" duration="4926000" />
       <workItem from="1608216501958" duration="303000" />
+      <workItem from="1610032844241" duration="5516000" />
+      <workItem from="1610114386820" duration="2094000" />
+      <workItem from="1610330129869" duration="1257000" />
+      <workItem from="1611262386917" duration="1091000" />
     </task>
     <servers />
   </component>
@@ -130,22 +145,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="769" y="291" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207493562" />
-    <state width="1240" height="279" key="GridCell.Tab.0.bottom" timestamp="1607801530341">
+    <state width="914" height="413" key="GridCell.Tab.0.bottom" timestamp="1611263495902">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1240" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1607801530341" />
-    <state width="1240" height="279" key="GridCell.Tab.0.center" timestamp="1607801530341">
+    <state width="914" height="413" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1611263495902" />
+    <state width="914" height="413" key="GridCell.Tab.0.center" timestamp="1611263495901">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1240" height="279" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1607801530341" />
-    <state width="1240" height="279" key="GridCell.Tab.0.left" timestamp="1607801530341">
+    <state width="914" height="413" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1611263495901" />
+    <state width="914" height="413" key="GridCell.Tab.0.left" timestamp="1611263495901">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1240" height="279" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1607801530341" />
-    <state width="1240" height="279" key="GridCell.Tab.0.right" timestamp="1607801530341">
+    <state width="914" height="413" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1611263495901" />
+    <state width="914" height="413" key="GridCell.Tab.0.right" timestamp="1611263495902">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1240" height="279" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1607801530341" />
+    <state width="914" height="413" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1611263495902" />
     <state x="461" y="166" key="SettingsEditor" timestamp="1605207496595">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

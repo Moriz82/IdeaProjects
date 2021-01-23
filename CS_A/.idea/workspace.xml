@@ -43,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1k7QBw8RIigDF8dw9eGvccGXwra" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,9 +60,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+<<<<<<< Updated upstream
   <component name="RunManager" selected="Application.TotalRunner">
+=======
+  <component name="RunManager" selected="Application.Test">
+>>>>>>> Stashed changes
     <configuration name="CarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CarRunner" />
       <module name="CS_A" />
@@ -67,15 +74,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+    <configuration name="Eval_functionz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Eval_functionz" />
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration name="TotalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TotalRunner" />
+=======
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+>>>>>>> Stashed changes
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,6 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< Updated upstream
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -112,7 +125,13 @@
       <list>
         <item itemvalue="Application.TotalRunner" />
         <item itemvalue="Application.CarRunner" />
+=======
+    <recent_temporary>
+      <list>
+>>>>>>> Stashed changes
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Eval_functionz" />
+        <item itemvalue="Application.CarRunner" />
         <item itemvalue="Application.TriplesRunner" />
         <item itemvalue="Application.TriangleFourRunner" />
       </list>
@@ -137,6 +156,10 @@
       <workItem from="1606875443810" duration="833000" />
       <workItem from="1607796484312" duration="16000" />
       <workItem from="1608216813945" duration="1501000" />
+      <workItem from="1609963727559" duration="1090000" />
+      <workItem from="1609966360344" duration="1864000" />
+      <workItem from="1609982444604" duration="1201000" />
+      <workItem from="1610032830741" duration="8000" />
     </task>
     <servers />
   </component>
@@ -156,10 +179,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="803" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1608219164771">
+    <state x="803" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1609982737766">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="803" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1608219164771" />
+    <state x="803" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1609982737766" />
     <state x="263" y="434" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605049076299">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -172,30 +195,30 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="260" y="261" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207071933" />
-    <state width="1240" height="285" key="GridCell.Tab.0.bottom" timestamp="1606876283609">
+    <state width="1369" height="255" key="GridCell.Tab.0.bottom" timestamp="1609983659618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1240" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606876283609" />
-    <state width="1240" height="285" key="GridCell.Tab.0.center" timestamp="1606876283609">
+    <state width="1369" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1609983659618" />
+    <state width="1369" height="255" key="GridCell.Tab.0.center" timestamp="1609983659618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1240" height="285" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606876283609" />
-    <state width="1240" height="285" key="GridCell.Tab.0.left" timestamp="1606876283608">
+    <state width="1369" height="255" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1609983659618" />
+    <state width="1369" height="255" key="GridCell.Tab.0.left" timestamp="1609983659618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1240" height="285" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606876283608" />
-    <state width="1240" height="285" key="GridCell.Tab.0.right" timestamp="1606876283609">
+    <state width="1369" height="255" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1609983659618" />
+    <state width="1369" height="255" key="GridCell.Tab.0.right" timestamp="1609983659618">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1240" height="285" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606876283609" />
+    <state width="1369" height="255" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1609983659618" />
     <state x="145" y="248" key="NewModule_or_Project.wizard" timestamp="1605049059670">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="145" y="248" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1605049059670" />
-    <state x="495" y="230" width="1000" height="708" key="SettingsEditor" timestamp="1605662106967">
+    <state x="495" y="230" width="1000" height="708" key="SettingsEditor" timestamp="1609982955275">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="495" y="230" width="1000" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605662106967" />
+    <state x="495" y="230" width="1000" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1609982955275" />
     <state x="184" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605050528728">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
