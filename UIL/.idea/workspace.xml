@@ -50,7 +50,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Chem_Reactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chem_Reactions" />
       <module name="UIL" />
@@ -79,10 +79,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.dijkstra_solver" />
         <item itemvalue="Application.Chem_Reactions" />
       </list>
@@ -115,6 +128,7 @@
       <workItem from="1610330129869" duration="1257000" />
       <workItem from="1611262386917" duration="1091000" />
       <workItem from="1611416954071" duration="10354000" />
+      <workItem from="1611801278323" duration="188000" />
     </task>
     <servers />
   </component>

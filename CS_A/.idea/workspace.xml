@@ -1,44 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5a6d640-2900-47db-a2bf-9e81d4564933" name="Default Changelist" comment="cookieJar Lab">
-      <change afterPath="$PROJECT_DIR$/src/RayTotal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TotalRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-    </list>
+    <list default="true" id="83925cc6-6e47-4ad4-8611-dacbf93817fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileColors">
-    <fileColor scope="Project Files" color="Violet" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -46,190 +13,60 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
   </component>
-  <component name="ProjectId" id="1k7QBw8RIigDF8dw9eGvccGXwra" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1ngAhbebHyCFYwej1QvWatkjtef" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-<<<<<<< Updated upstream
-  <component name="RunManager" selected="Application.TotalRunner">
-=======
-  <component name="RunManager" selected="Application.Test">
->>>>>>> Stashed changes
-    <configuration name="CarRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CarRunner" />
-      <module name="CS_A" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Eval_functionz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Eval_functionz" />
-      <module name="CS_A" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< Updated upstream
-    <configuration name="TotalRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TotalRunner" />
-=======
+  <component name="RunManager">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
->>>>>>> Stashed changes
       <module name="CS_A" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TriangleFourRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriangleFourRunner" />
-      <module name="CS_A" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TriplesRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TriplesRunner" />
-      <module name="CS_A" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< Updated upstream
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TotalRunner" />
-        <item itemvalue="Application.CarRunner" />
-=======
-    <recent_temporary>
-      <list>
->>>>>>> Stashed changes
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Eval_functionz" />
-        <item itemvalue="Application.CarRunner" />
-        <item itemvalue="Application.TriplesRunner" />
-        <item itemvalue="Application.TriangleFourRunner" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="146c8b0c-308c-463b-a5bd-dae7c3a7064f" name="Default Changelist" comment="" />
-      <created>1605049021372</created>
+      <changelist id="83925cc6-6e47-4ad4-8611-dacbf93817fd" name="Default Changelist" comment="" />
+      <created>1611801481375</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605049021372</updated>
-      <workItem from="1605049022421" duration="3366000" />
-      <workItem from="1605128659052" duration="604000" />
-      <workItem from="1605196441746" duration="1103000" />
-      <workItem from="1605205089724" duration="1989000" />
-      <workItem from="1605661264424" duration="5344000" />
-      <workItem from="1605720731403" duration="65000" />
-      <workItem from="1605749321202" duration="63000" />
-      <workItem from="1606686298057" duration="1707000" />
-      <workItem from="1606875443810" duration="833000" />
-      <workItem from="1607796484312" duration="16000" />
-      <workItem from="1608216813945" duration="1501000" />
-      <workItem from="1609963727559" duration="1090000" />
-      <workItem from="1609966360344" duration="1864000" />
-      <workItem from="1609982444604" duration="1201000" />
-      <workItem from="1610032830741" duration="8000" />
+      <updated>1611801481375</updated>
+      <workItem from="1611801485480" duration="363000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="803" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1609982737766">
+    <state x="0" y="163" key="new project wizard" timestamp="1611801851113">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="803" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1609982737766" />
-    <state x="263" y="434" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1605049076299">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="263" y="434" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1080@0.0.1920.1080" timestamp="1605049076299" />
-    <state x="210" y="290" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1605049591545">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="210" y="290" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605049591545" />
-    <state x="260" y="261" key="FileChooserDialogImpl" timestamp="1605207071933">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="260" y="261" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207071933" />
-    <state width="1369" height="255" key="GridCell.Tab.0.bottom" timestamp="1609983659618">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1369" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1609983659618" />
-    <state width="1369" height="255" key="GridCell.Tab.0.center" timestamp="1609983659618">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1369" height="255" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1609983659618" />
-    <state width="1369" height="255" key="GridCell.Tab.0.left" timestamp="1609983659618">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1369" height="255" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1609983659618" />
-    <state width="1369" height="255" key="GridCell.Tab.0.right" timestamp="1609983659618">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1369" height="255" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1609983659618" />
-    <state x="145" y="248" key="NewModule_or_Project.wizard" timestamp="1605049059670">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="145" y="248" key="NewModule_or_Project.wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1605049059670" />
-    <state x="495" y="230" width="1000" height="708" key="SettingsEditor" timestamp="1609982955275">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="495" y="230" width="1000" height="708" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1609982955275" />
-    <state x="184" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1605050528728">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="184" y="435" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1080@0.0.1920.1080" timestamp="1605050528728" />
-    <state x="732" y="457" width="655" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1605662105976">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="732" y="457" width="655" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605662105976" />
-    <state x="143" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1605051990240">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="143" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605051990240" />
+    <state x="0" y="163" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1611801851112" />
   </component>
 </project>
