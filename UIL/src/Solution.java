@@ -1,122 +1,120 @@
+import java.lang.reflect.Array;
 import java.util.*;
 import java.io.*;
 
 public class Solution {
 	public static void main(String[] args) throws IOException {
-		Scanner scan = new Scanner(new File("maze"));
-
-		int size = scan.nextInt();
-		int time = scan.nextInt();
-		int speed = scan.nextInt();
+		Scanner scan = new Scanner(System.in);
+		int startCol = scan.nextInt();
+		int startRow = scan.nextInt();
+		int amntMaze = scan.nextInt();
 		scan.nextLine();
-		Maze maze = new Maze();
-		maze.maze = new char[size][size];
 
-		for (int j = 0; j < size; j++) {
-			String line = scan.nextLine();
-			for (int k = 0; k < size; k++) {
-				maze.maze[j][k] = line.charAt(k);
+		char[][] maze = new char[startCol][startCol];
+		int[][] solvePoints = new int[amntMaze][amntMaze+1];
+
+		String rowLn = "";
+		for (int i = 0; i < startRow; i++) {
+			rowLn = scan.nextLine();
+			for (int j = 0; j < rowLn.length(); j++) {
+				maze[i][j] = rowLn.charAt(j);
+			}
+		}
+		for (int i = 0; i < amntMaze; i++) {
+			for (int j = 0; j < 4; j++) {
+				solvePoints[i][j] = scan.nextInt();
 			}
 		}
 
-		int startRow = 0, startCol = 0;
-		for (int j = 0; j < size; j++) {
-			for (int k = 0; k < size; k++) {
-				if (maze.maze[j][k] == 'S'){
-					startRow = j;
-					startCol = k;
-				}
-			}
+		for (int i = 0; i < amntMaze; i++) {
+			System.out.println(solveMaze(maze, solvePoints[i][0], solvePoints[i][1], solvePoints[i][2], solvePoints[i][3]));
 		}
-		maze.start = new Position(startRow, startCol);
-		System.out.println(solveMaze(maze,time,speed));
+
 	}
-	private static int solveMaze(Maze maze, int time ,int speed) {
-		Position p = maze.start;
-		maze.path.push(p);
-		int counter = 1;
-		int currentTime = 0;
-		while(true) {
-			currentTime++;
-			if (time>=currentTime){
-				System.out.println("Not enough time");
-				break;
+
+	public static int solveMaze(char[][] maze ,int startR, int startC, int endR, int endC){
+		Queue<nodes> queue = new LinkedList<>();
+		boolean[][] beenThere = new boolean[maze.length][maze[0].length];
+		int[][] pDis = new int[maze.length][maze[0].length];
+
+		queue.add(new nodes(startR, startC));
+
+		char walkable = maze[startR][startC];
+
+		for (int i = 0; i < maze.length; i++) {
+			for (int j = 0; j < maze[0].length; j++) {
+				pDis[i][j] = Integer.MAX_VALUE;
 			}
-			int y = maze.path.peek().y;
-			int x = maze.path.peek().x;
-			maze.maze[y][x] = 0;
+		}
+		pDis[startR][startC] = 0;
+
+		while(true){
+			nodes currentNode = queue.poll();
+			int cRow = currentNode.getRow();
+			int cCol = currentNode.getCol();
+
+			if (cRow == endR && cCol == endC){
+				for (int i = 0; i < maze.length; i++) {
+					for (int j = 0; j < maze[0].length; j++) {
+						System.out.println(pDis[i][j]);
+					}
+				}
+				return 1;
+			}
+			beenThere[cRow][cCol] = true;
+
 			//down
-			if(isValid(y+1, x, maze)) {
-				if(maze.maze[y+1][x] == 'E') {
-					return counter;
-				} else if(maze.maze[y+1][x] == '.'||maze.maze[y+1][x] == 'D') {
-					maze.path.push(new Position(y+1, x));
-					counter++;
-					continue;
+			if (cRow+1 != maze.length && !beenThere[cRow+1][cCol] && maze[cRow+1][cCol] == walkable){
+				queue.add(new nodes(cRow+1, cCol));
+				if (cRow-1 != -1  cCol != -1){
+					if (pDis[cRow][cCol] > pDis[cRow-1][cCol-1]+1){
+						pDis[cRow][cCol] = pDis[cRow-1][cCol-1]+1;
+					}
 				}
 			}
 			//left
-			if(isValid(y, x-1, maze)) {
-				if(maze.maze[y][x-1] == 'E') { ;
-					return counter;
-				} else if(maze.maze[y][x-1] == '.'||maze.maze[y+1][x] == 'D') {
-					maze.path.push(new Position(y, x-1));
-					counter++;
-					continue;
+			if (cCol-1 != -1 && !beenThere[cRow][cCol-1] && maze[cRow][cCol-1] == walkable){
+				queue.add(new nodes(cRow, cCol-1));
+				if (cRow-1 != -1&& cCol != -1){
+					if (pDis[cRow][cCol] > pDis[cRow-1][cCol-1]+1){
+						pDis[cRow][cCol] = pDis[cRow-1][cCol-1]+1;
+					}
 				}
 			}
 			//right
-			if(isValid(y, x+1, maze)) {
-				if(maze.maze[y][x+1] == 'E') {
-					return counter;
-				} else if(maze.maze[y][x+1] == '.'||maze.maze[y+1][x] == 'D') {
-					maze.path.push(new Position(y, x+1));
-					counter++;
-					continue;
+			if (cCol+1 != maze[0].length && !beenThere[cRow][cCol+1] && maze[cRow][cCol+1] == walkable){
+				queue.add(new nodes(cRow, cCol+1));
+				if (cRow-1 != -1&& cCol != -1){
+					if (pDis[cRow][cCol] > pDis[cRow-1][cCol-1]+1){
+						pDis[cRow][cCol] = pDis[cRow-1][cCol-1]+1;
+					}
 				}
 			}
 			//up
-			if(isValid(y-1, x, maze)) {
-				if(maze.maze[y-1][x] == 'E') {
-					return counter;
-				} else if(maze.maze[y-1][x] == '.'||maze.maze[y+1][x] == 'D') { ;
-					maze.path.push(new Position(y-1, x));
-					counter++;
-					continue;
+			if (cRow-1 != -1 && !beenThere[cRow-1][cCol] && maze[cRow-1][cCol] == walkable){
+				queue.add(new nodes(cRow-1, cCol));
+				if (cRow-1 != -1&& cCol != -1){
+					if (pDis[cRow][cCol] > pDis[cRow-1][cCol-1]+1){
+						pDis[cRow][cCol] = pDis[cRow-1][cCol-1]+1;
+					}
 				}
 			}
-			counter--;
-			currentTime--;
-			maze.path.pop();
-			System.out.println("FUCK WRONG WAY, popped back");
-			if(maze.path.size() <= 0) {
-				System.out.println("Exit is blocked.");
-				break;
-			}
 		}
-		return counter;
 	}
-	public static boolean isValid(int y, int x, Maze m) {
-		if(y < 0 || y >= m.maze.length || x < 0 || x >= m.maze[y].length) {
-			return false;
-		}
-		return true;
+}
+class nodes{
+	private int col, row, distanceFromStart;
+
+	public nodes(int row, int col) {
+		this.col = col;
+		this.row = row;
 	}
 
+	public int getCol() {
+		return col;
+	}
 
-
-}
-class Maze {
-	public char[][] maze;
-	public LinkedList<Position> path = new LinkedList<Position>();
-	public Position start;
-}
-class Position {
-	public int x;
-	public int y;
-
-	public Position(int y, int x) {
-		this.x = x;
-		this.y = y;
+	public int getRow() {
+		return row;
 	}
 }
