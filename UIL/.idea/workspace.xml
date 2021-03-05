@@ -19,7 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a31ffe64-c23f-41b0-b5ce-9f1050b75f3d" name="Default Changelist" comment="" />
+    <list default="true" id="a31ffe64-c23f-41b0-b5ce-9f1050b75f3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CSA/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CSA/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CSA/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CSA/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Solution.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,11 +53,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.XorTest">
     <configuration name="Chem_Reactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Chem_Reactions" />
       <module name="UIL" />
@@ -72,6 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="XorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="XorTest" />
+      <module name="UIL" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="dijkstra_solver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dijkstra_solver" />
       <module name="UIL" />
@@ -79,21 +94,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.XorTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.dijkstra_solver" />
@@ -102,6 +116,9 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a31ffe64-c23f-41b0-b5ce-9f1050b75f3d" name="Default Changelist" comment="" />
@@ -129,6 +146,7 @@
       <workItem from="1611262386917" duration="1091000" />
       <workItem from="1611416954071" duration="10354000" />
       <workItem from="1611801278323" duration="188000" />
+      <workItem from="1613331936301" duration="1535000" />
     </task>
     <servers />
   </component>
@@ -160,21 +178,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="769" y="291" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1605207493562" />
-    <state width="1877" height="363" key="GridCell.Tab.0.bottom" timestamp="1611428734725">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1321" height="191" key="GridCell.Tab.0.bottom" timestamp="1614232982430">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1321" height="191" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1614232982430" />
     <state width="1877" height="363" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1611428734725" />
-    <state width="1877" height="363" key="GridCell.Tab.0.center" timestamp="1611428734725">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1321" height="191" key="GridCell.Tab.0.center" timestamp="1614232982425">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1321" height="191" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1614232982425" />
     <state width="1877" height="363" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1611428734725" />
-    <state width="1877" height="363" key="GridCell.Tab.0.left" timestamp="1611428734725">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1321" height="191" key="GridCell.Tab.0.left" timestamp="1614232982421">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1321" height="191" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1614232982421" />
     <state width="1877" height="363" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1611428734725" />
-    <state width="1877" height="363" key="GridCell.Tab.0.right" timestamp="1611428734725">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1321" height="191" key="GridCell.Tab.0.right" timestamp="1614232982425">
+      <screen x="0" y="0" width="1366" height="768" />
     </state>
+    <state width="1321" height="191" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1614232982425" />
     <state width="1877" height="363" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1611428734725" />
     <state width="1877" height="363" key="GridCell.Tab.1.bottom" timestamp="1611428734725">
       <screen x="0" y="0" width="1920" height="1080" />

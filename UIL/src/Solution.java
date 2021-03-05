@@ -66,7 +66,7 @@ public class Solution {
 			//down
 			if (cRow+1 != maze.length && !beenThere[cRow+1][cCol] && maze[cRow+1][cCol] == walkable){
 				queue.add(new nodes(cRow+1, cCol));
-				if (cRow-1 != -1  cCol != -1){
+				if (cRow-1 != -1 &&  cCol != -1){
 					if (pDis[cRow][cCol] > pDis[cRow-1][cCol-1]+1){
 						pDis[cRow][cCol] = pDis[cRow-1][cCol-1]+1;
 					}
