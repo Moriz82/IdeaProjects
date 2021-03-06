@@ -1,10 +1,10 @@
 import java.util.Arrays;
 
-public class TotalRunner
+public class AverageRunner
 {
 	public static void main( String args[] )
 	{
-		ListTotal s = new ListTotal();
+		ListAverage s = new ListAverage();
 
 		System.out.println( s.go( Arrays.asList(-99,1,2,3,4,5,6,7,8,9,10,12345) ) );
 		System.out.println( s.go( Arrays.asList(10,9,8,7,6,5,4,3,2,1,-99)));
@@ -25,22 +25,18 @@ public class TotalRunner
 
 /*
 
-12301
--44
--11568
-32767
-510
-476
-497
--35
--947
-1089
--99
-6011
-
-
-
-
+6123.0
+-44.5
+-5884.0
+32767.0
+255.0
+222.5
+233.0
+-40.5
+-490.0
+506.0
+-102.5
+2500.0
 
 
 */
